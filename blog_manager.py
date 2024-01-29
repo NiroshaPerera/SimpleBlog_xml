@@ -68,8 +68,8 @@ if __name__ == "__main__":
         with open(blog_xml_file, 'w') as f:
             f.write('<blog><articles></articles></blog>')
 
-    add_article('Sample Article', 'This is the content of the article.',
-                ['Programming', 'Web Development'], 'John Doe', '2024-01-30')
+    add_article('The Rise of Low-Code Development and its Impact on Traditional Programming', 'In recent years, there has been a significant surge in the adoption of low-code development platforms, enabling individuals with minimal coding experience to create applications rapidly. This article explores the key features of low-code development, its benefits, and the potential impact on traditional programming paradigms. It delves into how low-code platforms empower non-developers to participate in the software development process, the challenges and opportunities they present, and the evolving landscape of programming in the age of low-code solutions.',
+                ['Programming', 'Web Development'], 'Nishi Perera', '2024-01-30')
     display_articles()
 
     # Example usage of edit_article and delete_article functions
